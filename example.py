@@ -145,7 +145,7 @@ if __name__ == "__main__":
                       save_every_ts=500_000,
                       timestep_limit=100_000_000_000_000,
                       log_to_wandb=False,
-                      wandb_run_name = "Karma v1",
+                      wandb_run_name = "-",
                       policy_layer_sizes=(256, 256, 256, 256),
                       critic_layer_sizes=(256, 256, 256, 256),
                       device="cuda",
